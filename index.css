@@ -58,9 +58,9 @@ body {
   padding: 5vh 5vw;
 }
 
-@media (max-width: 1023.9px) {
+@media (max-width: 500px) {
   body {
-    padding: 2vh 5vw 8vh 5vw;
+    padding: 1.5vh 5vw 8.5vh 5vw;
   }
 }
 
