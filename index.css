@@ -53,15 +53,10 @@
 body {
   width: 100vw;
   height: 100vh;
+  height: var(--js-height);
   background-image: url(./assets/img/background-space-square.jpg);
   background-size: cover;
-  padding: 5vh 5vw;
-}
-
-@media (max-width: 500px) {
-  body {
-    padding: 1.5vh 5vw 8.5vh 5vw;
-  }
+  padding: calc((var(--js-height) - 90vh) / 2) 5vw;
 }
 
 .galaxy-background {

@@ -13,6 +13,16 @@
 
 
 
+function getScreenHeight () {
+  document.documentElement.style.setProperty('--js-height', `${window.innerHeight}px`)
+}
+
+window.addEventListener('resize', getScreenHeight);
+getScreenHeight();
+
+
+
+
 
 let galaxy = document.querySelector('.galaxy-background');
 
