@@ -58,6 +58,12 @@ body {
   padding: 5vh 5vw;
 }
 
+@media (max-width: 1023.9px) {
+  body {
+    padding: 2vh 5vw 8vh 5vw;
+  }
+}
+
 .galaxy-background {
   position: absolute;
   left: 0;
