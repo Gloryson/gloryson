@@ -33,6 +33,10 @@ body {
   background-image: url(./assets/img/background-space-square.jpg);
   background-size: cover;
   padding: calc((var(--js-height) - 90vh) / 2) 5vw;
+
+  @media (max-width: 1024px) {
+    padding: calc((var(--js-height) - 85vh) / 2) 5vw;
+  }
 }
 
 .galaxy-background {
@@ -52,6 +56,10 @@ body {
 .main {
   height: 90vh;
   transition-duration: 0.35s;
+
+  @media (max-width: 1024px) {
+    height: 85vh;
+  }
 }
 
 
@@ -63,6 +71,10 @@ body {
   display: flex;
   justify-content: start;
   align-items: start;
+
+  @media (max-width: 1024px) {
+    height: 22.5vh;
+  }
 
   .main__skills-block {
     font-size: 2rem;
@@ -147,6 +159,10 @@ body {
   display: flex;
   justify-content: end;
   align-items: end;
+
+  @media (max-width: 1024px) {
+    height: 22.5vh;
+  }
 
   .main__title-block {
     text-align: right;

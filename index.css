@@ -59,6 +59,12 @@ body {
   padding: calc((var(--js-height) - 90vh) / 2) 5vw;
 }
 
+@media (max-width: 1024px) {
+  body {
+    padding: calc((var(--js-height) - 85vh) / 2) 5vw;
+  }
+}
+
 .galaxy-background {
   position: absolute;
   left: 0;
@@ -75,6 +81,12 @@ body {
           transition-duration: 0.35s;
 }
 
+@media (max-width: 1024px) {
+  .main {
+    height: 85vh;
+  }
+}
+
 .main__skills-area {
   height: 25vh;
   display: -webkit-box;
@@ -86,6 +98,12 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .main__skills-area {
+    height: 22.5vh;
+  }
 }
 
 .main__skills-area .main__skills-block {
@@ -181,6 +199,12 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
+}
+
+@media (max-width: 1024px) {
+  .main__title-area {
+    height: 22.5vh;
+  }
 }
 
 .main__title-area .main__title-block {
