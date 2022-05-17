@@ -1,5 +1,8 @@
 ### Hi there 👋
-- 🔭 I’m currently working on https://gloryson.github.io/gloryson
+
+- 🌱 I’m currently learning JS, NodeJS and React
+- 
+- 🔭 My portfolio website https://gloryson.github.io/gloryson
 <!--
 **Gloryson/gloryson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
