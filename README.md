@@ -1,4 +1,5 @@
-Hi there 👋
+### Hi there 👋
+
 - 🌱 I’m currently learning JS, NodeJS and React
 
 - 🔭 My portfolio website https://gloryson.github.io/gloryson
