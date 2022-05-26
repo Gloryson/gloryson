@@ -259,6 +259,13 @@ body {
           transition-duration: 0.5s;
 }
 
+@media (max-width: 500px) {
+  .projects a {
+    width: 30.9vmax;
+    height: 20.6vmax;
+  }
+}
+
 .projects .shelter {
   background-image: url(./assets/img/shelter.jpg);
 }
