@@ -259,13 +259,6 @@ body {
           transition-duration: 0.5s;
 }
 
-@media (max-width: 500px) {
-  .projects a {
-    width: 30.9vmax;
-    height: 20.6vmax;
-  }
-}
-
 .projects .shelter {
   background-image: url(./assets/img/shelter.jpg);
 }
@@ -278,8 +271,8 @@ body {
   background-image: url(./assets/img/keyboard.jpg);
 }
 
-.projects .github {
-  background-image: url(./assets/img/github.jpg);
+.projects .psy {
+  background-image: url(./assets/img/psy.jpg);
 }
 
 .contacts {

@@ -201,11 +201,6 @@ body {
     background-size: 100%;
     box-shadow: #ffffff 0 0 0.5rem 0;
     transition-duration: 0.5s;
-
-    @media (max-width: 500px) {
-      width: 30.9vmax;
-      height: 20.6vmax;
-    }
   }
 
   .shelter {
@@ -220,8 +215,8 @@ body {
     background-image: url(./assets/img/keyboard.jpg);
   }
 
-  .github {
-    background-image: url(./assets/img/github.jpg);
+  .psy {
+    background-image: url(./assets/img/psy.jpg);
   }
 }
 
